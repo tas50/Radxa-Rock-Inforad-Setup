@@ -15,3 +15,8 @@ Flashing SD cards
 * Write the partition with 'w'
 * Reboot the host.
 * When you run the inforad setup script it will automatically run resize2fs /dev/mmcblk0p1 to perform the resize
+
+
+Important Note
+--------------
+This script is very specific to my needs for setting up an inforad.  There's probably a lot of things you'll want to remove for your setup.  In particular you'll either need to remove the OpenVPN portion or you'll need to properly setup OpenVPN with a config and certs/keys after running this script.  There are also many places in the script where you need to add passwords / hosts / IPs.  See the script for more details. 
